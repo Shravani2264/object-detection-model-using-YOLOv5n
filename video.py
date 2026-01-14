@@ -4,7 +4,7 @@ import torch
 # Load your custom YOLOv5 model
 model = torch.hub.load(
     'ultralytics/yolov5', 'custom',
-    path='C:/Users/Admin/Desktop/object detection/yolov5/person_yolo/custom_model2/weights/best.pt'
+    path='C:\\Users\\Admin\\Desktop\\MY PROJECTS\\object detection\\yolov5\\person_yolo\\custom_model2\\weights\\best.pt',
 )
 
 # Start webcam
